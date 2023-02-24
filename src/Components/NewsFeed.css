@@ -1,0 +1,11 @@
+
+#newsDiv{
+    
+   
+    width: 50%;
+}
+.descriptionDiv{
+   
+    display: flex;
+    flex-direction: column;
+}

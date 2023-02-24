@@ -1,0 +1,40 @@
+
+#cardfeed{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(128, 128, 128, 0.717);
+  padding-top: 5px;
+  justify-content: space-between;
+  
+  
+}
+.tableandfeed{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 50vw;
+  
+  
+  
+}
+#bigTable{
+  width: 30%;
+  
+  
+}
+.symbolFeed{
+  
+  display: flex;
+  justify-content: space-around;
+  width: 50%
+}
+#addSymbol{
+  
+  padding-right: 10px;
+}
+.symbols:hover{
+  opacity: 0.8;
+}
+.symbolName:hover{
+  color: brown;
+}

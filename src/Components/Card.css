@@ -1,0 +1,27 @@
+
+#actualForm{
+    display: flex;
+    width: 100%;
+   
+    justify-content: space-between;
+
+    
+    
+}
+label{
+    color: black;
+    font-weight: 750;
+}
+#toplevel{
+    
+    height: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(176, 231, 246);
+}
+.inputBox{
+    padding-left: 20px;
+}
