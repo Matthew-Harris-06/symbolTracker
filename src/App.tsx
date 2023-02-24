@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 
 function App() {
-  const key = import.meta.env.VITE_SOME_KEY;
+  
   const [newsArray, setnewsArray] = useState([]);
   const [ftableData, setftableData] = useState({});
   const [symbolslistdata, setsymbolData] = useState();
@@ -181,7 +181,7 @@ function App() {
           </Table>
 
           <NewsFeed newsArray={newsArray} className="screen"></NewsFeed>
-          <label></label>
+          
         </div>
       </div>
       <link
